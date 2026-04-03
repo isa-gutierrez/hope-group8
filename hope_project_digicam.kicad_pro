@@ -2,9 +2,6 @@
   "board": {
     "3dviewports": [],
     "design_settings": {
-<<<<<<< main
-      "defaults": {},
-=======
       "defaults": {
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
@@ -54,7 +51,6 @@
           "min_clearance": 0.5
         }
       },
->>>>>>> local
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "rules": {},
