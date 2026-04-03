@@ -5644,6 +5644,12 @@
 		(uuid "9c4296c2-8f1a-4213-bca1-5cb3807f048c")
 	)
 	(junction
+		(at 71.12 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b886648e-7883-40b8-8ea4-17e8e054859e")
+	)
+	(junction
 		(at 39.37 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5712,14 +5718,6 @@
 	(no_connect
 		(at 154.94 97.79)
 		(uuid "7de1e01f-e9b8-4fcd-bfb3-6a7ca07ff010")
-	)
-	(no_connect
-		(at 71.12 146.05)
-		(uuid "94a858cc-569f-4919-8e63-ce5ff9bf35d0")
-	)
-	(no_connect
-		(at 71.12 143.51)
-		(uuid "b34414b1-c5b4-47c5-98ac-a8870d764d58")
 	)
 	(no_connect
 		(at 50.8 96.52)
@@ -6025,6 +6023,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 146.05) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28372ec4-7c3c-4c42-bfab-29b0cbbd65a5")
+	)
+	(wire
+		(pts
 			(xy 219.71 105.41) (xy 229.87 105.41)
 		)
 		(stroke
@@ -6192,6 +6200,16 @@
 			(type default)
 		)
 		(uuid "3901db7b-cd0c-45b8-bfae-14152689bcab")
+	)
+	(wire
+		(pts
+			(xy 68.58 138.43) (xy 71.12 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8cb663-5c36-4941-9dce-79a04bfc9407")
 	)
 	(wire
 		(pts
@@ -7235,6 +7253,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 143.51) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b111a0-4956-4c66-a364-7e840fbed3d6")
+	)
+	(wire
+		(pts
 			(xy 209.55 153.67) (xy 219.71 153.67)
 		)
 		(stroke
@@ -7332,16 +7360,6 @@
 			(type default)
 		)
 		(uuid "f84125e9-37fd-4919-bafb-263f45221cca")
-	)
-	(wire
-		(pts
-			(xy 66.04 138.43) (xy 71.12 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd9f05ac-40bc-4058-a4d2-e87514c3aefd")
 	)
 	(wire
 		(pts
@@ -8290,7 +8308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 116.84 180.34 0)
 			(effects
 				(font
@@ -8619,7 +8637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HOPE DigiCam:40_Pin_Conn"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical"
 			(at 234.95 100.33 0)
 			(effects
 				(font
@@ -8716,7 +8734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 163.83 35.56 0)
 			(effects
 				(font
@@ -9292,7 +9310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 156.21 171.45 0)
 			(effects
 				(font
@@ -9488,7 +9506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 116.84 142.24 0)
 			(effects
 				(font
@@ -9555,7 +9573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 166.37 26.67 0)
 			(effects
 				(font
@@ -10191,7 +10209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HOPE DigiCam:40_Pin_Conn"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -10441,7 +10459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 181.61 35.56 0)
 			(effects
 				(font
@@ -10507,7 +10525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 274.32 144.78 0)
 			(effects
 				(font
@@ -10617,15 +10635,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 138.43 0)
+		(at 62.23 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "892b9883-6d83-4ebf-a2b1-591756bd044d")
-		(property "Reference" "#PWR024"
-			(at 66.04 142.24 0)
+		(uuid "889fbab0-f1ec-4066-9cfb-656b37c555a1")
+		(property "Reference" "#PWR039"
+			(at 62.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10652,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 66.04 134.62 0)
+			(at 62.23 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +10660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 138.43 0)
+			(at 62.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10651,7 +10669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 138.43 0)
+			(at 62.23 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10660,7 +10678,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 138.43 0)
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ede2a05-b6b8-4b8d-bde9-bb9674b4c1cc")
+		)
+		(instances
+			(project "hope_project_digicam"
+				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 68.58 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "892b9883-6d83-4ebf-a2b1-591756bd044d")
+		(property "Reference" "#PWR024"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 68.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 68.58 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,7 +10923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HOPE DigiCam:SW2_SW3"
 			(at 226.06 60.96 0)
 			(effects
 				(font
@@ -10974,7 +11057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 116.84 161.29 0)
 			(effects
 				(font
@@ -11105,7 +11188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 257.81 135.89 0)
 			(effects
 				(font
@@ -11962,7 +12045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 257.81 153.67 0)
 			(effects
 				(font
@@ -12201,6 +12284,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 62.23 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7b1ea11-e240-42d0-8288-5205d6dfaceb")
+		(property "Reference" "R13"
+			(at 64.77 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 64.77 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HOPE DigiCam:10k_Res"
+			(at 60.452 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b207d8ad-3c29-45df-8668-f5757e033fa4")
+		)
+		(pin "2"
+			(uuid "f8dfce50-ccf5-443e-9cc8-d0daec8740c6")
+		)
+		(instances
+			(project "hope_project_digicam"
+				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 161.29 148.59 0)
 		(unit 1)
@@ -12358,7 +12510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 193.04 26.67 0)
 			(effects
 				(font
@@ -12704,7 +12856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 200.66 35.56 0)
 			(effects
 				(font
@@ -12835,7 +12987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 217.17 35.56 0)
 			(effects
 				(font
