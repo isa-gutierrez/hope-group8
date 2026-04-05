@@ -7851,6 +7851,16 @@
 		)
 		(uuid "90c8cf14-941b-4d1e-9f44-e2226a45f06b")
 	)
+	(label "CC1"
+		(at 63.5 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90f36462-8c6b-4d0d-afe9-6292b99c202f")
+	)
 	(label "PWR_IN"
 		(at 77.47 43.18 90)
 		(effects
@@ -8150,6 +8160,16 @@
 			(justify right bottom)
 		)
 		(uuid "fd25a4a1-bc53-4a1f-8ae5-8b06d80200f4")
+	)
+	(label "CC2"
+		(at 53.34 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe79c510-4e10-4e27-9ef4-14ac4075b554")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8471,7 +8491,7 @@
 			(uuid "ada9709d-f73d-4f55-a502-ed95af0f039b")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "J4")
 					(unit 1)
@@ -8637,7 +8657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical"
+		(property "Footprint" "HOPE DigiCam:TFT Module"
 			(at 234.95 100.33 0)
 			(effects
 				(font
@@ -8698,7 +8718,7 @@
 			(uuid "a4e2e876-92e8-485a-bbf0-ffdeb79aaf81")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "J5")
 					(unit 1)
@@ -8976,7 +8996,7 @@
 			(uuid "cdea4c11-2691-43b2-abd5-7512681e56f3")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "J2")
 					(unit 1)
@@ -9141,7 +9161,7 @@
 			(uuid "2c76c637-3130-4e61-89a3-8aced4252ea3")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "Q2")
 					(unit 1)
@@ -9210,7 +9230,7 @@
 			(uuid "732d268c-d9d1-4b0a-861b-3d774d970295")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "R1")
 					(unit 1)
@@ -9604,7 +9624,7 @@
 			(uuid "82a40aa5-5b57-4829-b788-4dfd80311c7c")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "TP1")
 					(unit 1)
@@ -9904,7 +9924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HOPE DigiCam:40_Pin_Conn"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -10106,7 +10126,7 @@
 			(uuid "ea69ce5f-35d4-4e12-801c-3b85bc25a6cd")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "Q1")
 					(unit 1)
@@ -10209,7 +10229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical"
+		(property "Footprint" "HOPE DigiCam:Cam Module"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -10291,7 +10311,7 @@
 			(uuid "67d49b07-e1ee-4fb5-9fc8-cf8221d5564c")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "J3")
 					(unit 1)
@@ -10358,7 +10378,7 @@
 			(uuid "a77fc51d-d5f3-4080-af0c-6b87fe130656")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "R2")
 					(unit 1)
@@ -10423,7 +10443,7 @@
 			(uuid "ae0de340-d8c6-4753-aff2-ce4637be9999")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "#PWR02")
 					(unit 1)
@@ -10915,7 +10935,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Cam Trigger"
 			(at 226.06 60.96 0)
 			(effects
 				(font
@@ -10957,7 +10977,7 @@
 			(uuid "0f57ffe8-cbe4-48e2-8974-70d224460305")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "SW1")
 					(unit 1)
@@ -11945,7 +11965,7 @@
 			(uuid "d8ee887d-0531-41ec-abbe-e8bd6dad1335")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "R12")
 					(unit 1)
@@ -12685,7 +12705,7 @@
 			(uuid "0114fe37-7b83-4c90-bd42-be4c9a9cc6ac")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "D1")
 					(unit 1)
@@ -12752,7 +12772,7 @@
 			(uuid "5e8faa31-f499-4e67-99f7-3f2084fbe4dc")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "C4")
 					(unit 1)
@@ -13294,7 +13314,7 @@
 			(uuid "b7893c21-8c2d-4e9c-aa56-2adf9e8313c6")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "U3")
 					(unit 1)
@@ -13424,7 +13444,7 @@
 			(uuid "11414a57-f2e6-4509-a181-f273701bb9d3")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "#FLG01")
 					(unit 1)
@@ -13491,7 +13511,7 @@
 			(uuid "a6c9ddcd-477b-4904-ac86-2492a3f47754")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "R4")
 					(unit 1)
@@ -13688,7 +13708,7 @@
 			(uuid "7b805ea1-a284-4a73-8b08-7a6c0a43cf20")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "#PWR01")
 					(unit 1)
@@ -13801,7 +13821,7 @@
 			(uuid "55f37c16-d4eb-455f-81ef-4b985b1bd0f9")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "J1")
 					(unit 1)
@@ -13871,7 +13891,7 @@
 			(uuid "db454236-9674-4c62-b890-058d995f212a")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "D2")
 					(unit 1)
@@ -14057,7 +14077,7 @@
 			(uuid "89139551-b231-413d-9705-68a298d9c579")
 		)
 		(instances
-			(project ""
+			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "U1")
 					(unit 1)
