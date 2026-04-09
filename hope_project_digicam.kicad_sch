@@ -5680,6 +5680,10 @@
 		(uuid "e9505577-8588-467d-a3dc-4a8390694bd8")
 	)
 	(no_connect
+		(at 154.94 102.87)
+		(uuid "05bbc6f5-1767-467e-b0d0-fb0e7d029f53")
+	)
+	(no_connect
 		(at 209.55 158.75)
 		(uuid "0bcdf967-b908-46b7-ad2b-8f681b5479a3")
 	)
@@ -5688,12 +5692,12 @@
 		(uuid "213e839b-c0d1-47ec-887b-bef12b92fa1f")
 	)
 	(no_connect
-		(at 219.71 90.17)
-		(uuid "2c2cd357-9bb8-4e77-a865-b16d617e7a98")
+		(at 154.94 100.33)
+		(uuid "2402e5f1-87d9-43a6-afda-e006dd011a84")
 	)
 	(no_connect
-		(at 154.94 100.33)
-		(uuid "4bfadfad-9856-4b9c-9839-7e6fec560064")
+		(at 219.71 90.17)
+		(uuid "2c2cd357-9bb8-4e77-a865-b16d617e7a98")
 	)
 	(no_connect
 		(at 154.94 87.63)
@@ -5708,16 +5712,12 @@
 		(uuid "672a6329-6e8b-4aa9-b746-698b112263f0")
 	)
 	(no_connect
-		(at 154.94 102.87)
-		(uuid "755a3f97-3b9c-4564-89e6-2a7ab5f3830b")
-	)
-	(no_connect
 		(at 50.8 99.06)
 		(uuid "77052dcb-ba89-4436-af1e-bd320a1db3e6")
 	)
 	(no_connect
-		(at 154.94 97.79)
-		(uuid "7de1e01f-e9b8-4fcd-bfb3-6a7ca07ff010")
+		(at 154.94 105.41)
+		(uuid "97e8852b-94b3-4298-bfc2-9c38842ec7d7")
 	)
 	(no_connect
 		(at 50.8 96.52)
@@ -5740,6 +5740,16 @@
 			(type default)
 		)
 		(uuid "00de5836-1fc1-4735-86bc-b569420052ab")
+	)
+	(wire
+		(pts
+			(xy 111.76 74.93) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018da9d2-1a54-413c-8eb6-8ad9d4686a4e")
 	)
 	(wire
 		(pts
@@ -5773,16 +5783,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 124.46 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0301993c-23fa-4436-8930-970e73206f30")
-	)
-	(wire
-		(pts
 			(xy 77.47 35.56) (xy 77.47 43.18)
 		)
 		(stroke
@@ -5790,16 +5790,6 @@
 			(type default)
 		)
 		(uuid "0558f374-100a-44fa-87e1-493e79080482")
-	)
-	(wire
-		(pts
-			(xy 113.03 97.79) (xy 124.46 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061510e1-4a51-42c2-b98c-5dccf17eea38")
 	)
 	(wire
 		(pts
@@ -5823,16 +5813,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 107.95) (xy 124.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0add069e-6a2b-4b57-bd60-d0d6cca20d28")
-	)
-	(wire
-		(pts
 			(xy 186.69 69.85) (xy 186.69 71.12)
 		)
 		(stroke
@@ -5840,16 +5820,6 @@
 			(type default)
 		)
 		(uuid "0bf67c54-149c-4f12-a4ce-2939123f2b26")
-	)
-	(wire
-		(pts
-			(xy 113.03 87.63) (xy 124.46 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c91d66d-aa91-4186-bedb-f3a336ca60d8")
 	)
 	(wire
 		(pts
@@ -5870,16 +5840,6 @@
 			(type default)
 		)
 		(uuid "105e5cc6-da1a-41f5-b03f-7280677a049f")
-	)
-	(wire
-		(pts
-			(xy 113.03 95.25) (xy 124.46 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "108503b0-d85b-4141-9ba1-7b68d1298b0f")
 	)
 	(wire
 		(pts
@@ -5973,16 +5933,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 165.1 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b63ddc-0a33-4587-aa3e-77a8d7f95e17")
-	)
-	(wire
-		(pts
 			(xy 205.74 66.04) (xy 220.98 66.04)
 		)
 		(stroke
@@ -6073,6 +6023,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0f1158-d828-477a-a043-e960eb4149c3")
+	)
+	(wire
+		(pts
 			(xy 151.13 175.26) (xy 153.67 175.26)
 		)
 		(stroke
@@ -6153,16 +6113,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 180.34) (xy 111.76 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d1d6ab-0099-400e-a5d6-e8e2c3361a69")
-	)
-	(wire
-		(pts
 			(xy 212.09 35.56) (xy 212.09 36.83)
 		)
 		(stroke
@@ -6203,6 +6153,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 82.55) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397ec9f8-d899-4447-bae1-e39326122a00")
+	)
+	(wire
+		(pts
 			(xy 68.58 138.43) (xy 71.12 138.43)
 		)
 		(stroke
@@ -6210,16 +6170,6 @@
 			(type default)
 		)
 		(uuid "3b8cb663-5c36-4941-9dce-79a04bfc9407")
-	)
-	(wire
-		(pts
-			(xy 154.94 92.71) (xy 165.1 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b99255a-c89b-483c-9003-2dfdcfbe8a4c")
 	)
 	(wire
 		(pts
@@ -6233,13 +6183,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 124.46 85.09)
+			(xy 154.94 107.95) (xy 165.1 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e81370b-05e8-4b2d-865f-1eb9d2e67b5e")
+		(uuid "3fe81b6f-e038-4951-9091-7c2fbe93d726")
 	)
 	(wire
 		(pts
@@ -6333,16 +6283,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 165.1 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470d643b-3e8c-4aea-99ec-028f6ccc539c")
-	)
-	(wire
-		(pts
 			(xy 102.87 29.21) (xy 107.95 29.21)
 		)
 		(stroke
@@ -6373,16 +6313,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 165.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599b3a47-ece2-4de7-86bf-3563e5bb01aa")
-	)
-	(wire
-		(pts
 			(xy 113.03 113.03) (xy 124.46 113.03)
 		)
 		(stroke
@@ -6410,6 +6340,16 @@
 			(type default)
 		)
 		(uuid "5d7514ef-b24e-4a31-a91c-e658f91d3d3d")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbda7da-aafa-4e71-ac6b-daf2acce847f")
 	)
 	(wire
 		(pts
@@ -6450,6 +6390,16 @@
 			(type default)
 		)
 		(uuid "648d89a4-381f-468e-b19e-f2fe03696d33")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.25) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6526b103-811f-4ac1-bfa5-e88c50b56c01")
 	)
 	(wire
 		(pts
@@ -6550,16 +6500,6 @@
 			(type default)
 		)
 		(uuid "6fbcc9d3-3416-4aff-8d9a-3637a4afa509")
-	)
-	(wire
-		(pts
-			(xy 113.03 74.93) (xy 124.46 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74dd060d-0f63-4d4d-9df5-157a59125435")
 	)
 	(wire
 		(pts
@@ -6723,6 +6663,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 95.25) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbcd03c-2b18-4269-881f-7aa4a4af51ef")
+	)
+	(wire
+		(pts
 			(xy 50.8 88.9) (xy 52.07 88.9)
 		)
 		(stroke
@@ -6783,6 +6733,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c591d6-c7d5-4690-8bc6-235f57c00a45")
+	)
+	(wire
+		(pts
 			(xy 232.41 146.05) (xy 240.03 146.05)
 		)
 		(stroke
@@ -6810,16 +6770,6 @@
 			(type default)
 		)
 		(uuid "979a5592-fef5-424f-ad48-53cee6346102")
-	)
-	(wire
-		(pts
-			(xy 252.73 135.89) (xy 252.73 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "987d8d17-3af4-4ad5-9e68-d4bd261bc36b")
 	)
 	(wire
 		(pts
@@ -6853,6 +6803,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7153f1-3a62-44f0-81ae-5ee0b1b1db39")
+	)
+	(wire
+		(pts
 			(xy 135.89 175.26) (xy 143.51 175.26)
 		)
 		(stroke
@@ -6883,16 +6843,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 100.33) (xy 124.46 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a609073c-67bf-4aeb-ba05-f134c9965eba")
-	)
-	(wire
-		(pts
 			(xy 214.63 92.71) (xy 229.87 92.71)
 		)
 		(stroke
@@ -6913,16 +6863,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 161.29) (xy 111.76 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adb57503-d532-4712-a722-44d7f552cad0")
-	)
-	(wire
-		(pts
 			(xy 113.03 105.41) (xy 124.46 105.41)
 		)
 		(stroke
@@ -6940,6 +6880,16 @@
 			(type default)
 		)
 		(uuid "b0a199aa-4b83-491e-ab58-7b98e1c3cf9c")
+	)
+	(wire
+		(pts
+			(xy 113.03 100.33) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a8694b-a495-4293-8e5c-7fb72b78bbf9")
 	)
 	(wire
 		(pts
@@ -6983,6 +6933,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 110.49) (xy 165.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5141b52-6835-426a-830b-bb441df2a102")
+	)
+	(wire
+		(pts
 			(xy 209.55 140.97) (xy 219.71 140.97)
 		)
 		(stroke
@@ -7000,26 +6960,6 @@
 			(type default)
 		)
 		(uuid "b87ec5d6-ef03-457b-9990-e41363432d0e")
-	)
-	(wire
-		(pts
-			(xy 111.76 142.24) (xy 111.76 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc3dca5c-22fd-4329-a344-efa3f5164ce0")
-	)
-	(wire
-		(pts
-			(xy 154.94 82.55) (xy 165.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c175b512-ef58-48e5-8adc-0f4ce9ef7490")
 	)
 	(wire
 		(pts
@@ -7050,6 +6990,16 @@
 			(type default)
 		)
 		(uuid "c42eefde-5672-4edf-9dd3-c8ba9a092235")
+	)
+	(wire
+		(pts
+			(xy 113.03 77.47) (xy 124.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42f5c61-f6aa-470d-bf06-a8dbe1646b72")
 	)
 	(wire
 		(pts
@@ -7113,16 +7063,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 153.67) (xy 252.73 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf6cebee-3478-4ddd-9c75-f70886107f87")
-	)
-	(wire
-		(pts
 			(xy 219.71 107.95) (xy 229.87 107.95)
 		)
 		(stroke
@@ -7173,13 +7113,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 107.95) (xy 165.1 107.95)
+			(xy 113.03 97.79) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d771bae7-299b-4166-ab9c-b20f4834e5c3")
+		(uuid "d695ba4b-5d62-4bd4-9a0b-f19be631ae70")
 	)
 	(wire
 		(pts
@@ -7190,16 +7130,6 @@
 			(type default)
 		)
 		(uuid "d958318d-dbf7-4788-a526-be728cbe878d")
-	)
-	(wire
-		(pts
-			(xy 269.24 144.78) (xy 269.24 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd592b44-c1fa-49f2-9616-356cded78c28")
 	)
 	(wire
 		(pts
@@ -7353,6 +7283,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 107.95) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d99177-15df-4c8d-82c1-799a99d61e9a")
+	)
+	(wire
+		(pts
 			(xy 124.46 69.85) (xy 124.46 67.31)
 		)
 		(stroke
@@ -7372,7 +7312,7 @@
 		(uuid "fdcf62dd-5d3c-4b79-af6d-62143fa92474")
 	)
 	(label "CAM_D6"
-		(at 113.03 110.49 0)
+		(at 113.03 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7380,6 +7320,16 @@
 			(justify left bottom)
 		)
 		(uuid "00fd4e15-96f2-41cd-b0db-7fe0ba14b6af")
+	)
+	(label "TFT_SCK"
+		(at 113.03 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "063af479-3186-428e-bbaa-796f1f3a45cf")
 	)
 	(label "D+"
 		(at 160.02 80.01 0)
@@ -7432,7 +7382,7 @@
 		(uuid "100c8a32-f7bf-486f-8cd8-d037adeb52d8")
 	)
 	(label "SD_CS"
-		(at 113.03 97.79 0)
+		(at 113.03 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7460,16 +7410,6 @@
 			(justify left bottom)
 		)
 		(uuid "1c3b0715-10eb-4c0a-a250-5735f134f0b1")
-	)
-	(label "CAM_PC"
-		(at 252.73 161.29 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22f77815-aec6-480d-873e-d4630e0bfd5f")
 	)
 	(label "TFT_RST"
 		(at 219.71 105.41 0)
@@ -7512,7 +7452,7 @@
 		(uuid "2f467297-290b-46bd-8b86-6cbdb9d6dbdb")
 	)
 	(label "CAM_SDA"
-		(at 113.03 77.47 0)
+		(at 113.03 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7582,12 +7522,12 @@
 		(uuid "480fba1f-57b3-4296-8225-d8ad73075eae")
 	)
 	(label "CAM_VS"
-		(at 165.1 110.49 180)
+		(at 113.03 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "49f75d1f-f867-4e6f-baa8-6eafa21ec615")
 	)
@@ -7602,7 +7542,7 @@
 		(uuid "4b8c1083-96f7-4d46-a36c-38fd53cde8ed")
 	)
 	(label "TFT_LIT"
-		(at 165.1 113.03 180)
+		(at 165.1 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7612,32 +7552,32 @@
 		(uuid "4e3e9be4-695f-46b1-8b1a-58dfadddaa55")
 	)
 	(label "CAM_SCL"
-		(at 113.03 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "536bf6b9-c32f-4c97-8c0d-1ad80f36a586")
-	)
-	(label "CAM_D9"
-		(at 165.1 74.93 180)
+		(at 165.1 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "54a64f81-d527-4802-a6e2-ac6e897348ae")
+		(uuid "536bf6b9-c32f-4c97-8c0d-1ad80f36a586")
 	)
-	(label "TFT_CS"
+	(label "CAM_D9"
 		(at 113.03 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "54a64f81-d527-4802-a6e2-ac6e897348ae")
+	)
+	(label "TFT_CS"
+		(at 165.1 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "55878f22-0680-4aae-9712-4ebf7051a264")
 	)
@@ -7702,7 +7642,7 @@
 		(uuid "65c03e2f-8d45-4221-a5fd-d89f84294c98")
 	)
 	(label "SD_MISO"
-		(at 113.03 105.41 0)
+		(at 113.03 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7732,27 +7672,27 @@
 		(uuid "6aad87b8-d38f-467f-94ab-57893f679b9f")
 	)
 	(label "CAM_D5"
-		(at 113.03 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76671161-8133-4db4-8e97-a5103d09e45f")
-	)
-	(label "CAM_HS"
-		(at 165.1 82.55 180)
+		(at 165.1 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+		(uuid "76671161-8133-4db4-8e97-a5103d09e45f")
+	)
+	(label "CAM_HS"
+		(at 113.03 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "7687412c-f269-431a-9252-2e4f0a5d3e6e")
 	)
 	(label "SD_SCK"
-		(at 113.03 102.87 0)
+		(at 113.03 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7782,7 +7722,7 @@
 		(uuid "8301f56f-cec8-48db-a21c-6d8f0905789a")
 	)
 	(label "CAM_D3"
-		(at 113.03 85.09 0)
+		(at 113.03 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7791,18 +7731,8 @@
 		)
 		(uuid "83698766-9441-4f4e-87da-0085bf75e8d5")
 	)
-	(label "CAM_SCL"
-		(at 252.73 146.05 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84db98f7-366b-44dd-92be-c6b29f90e19f")
-	)
 	(label "SD_MOSI"
-		(at 113.03 100.33 0)
+		(at 113.03 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7821,16 +7751,6 @@
 		)
 		(uuid "8d0ba2b0-a209-4e9d-9013-89ea738b14e7")
 	)
-	(label "SD_SCK"
-		(at 111.76 152.4 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8e9a1a2f-b342-4c14-95bc-7d41993e7677")
-	)
 	(label "3.3V_OUT"
 		(at 219.71 90.17 0)
 		(effects
@@ -7842,7 +7762,7 @@
 		(uuid "8ef3c253-13b7-4e00-b84f-d6438daa7a3d")
 	)
 	(label "CAM_D7"
-		(at 113.03 113.03 0)
+		(at 113.03 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7881,16 +7801,6 @@
 		)
 		(uuid "a2253a7f-6419-460a-8c15-1709f5b0139e")
 	)
-	(label "SD_MISO"
-		(at 111.76 190.5 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5df26f7-16d7-43ee-b5c3-41b592f1cf41")
-	)
 	(label "D-"
 		(at 160.02 77.47 0)
 		(effects
@@ -7911,18 +7821,8 @@
 		)
 		(uuid "aff90f22-d583-4f30-b008-a71494aa3c8a")
 	)
-	(label "CAM_SDA"
-		(at 269.24 154.94 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1f9b15f-4dc8-4614-b87c-4725fbb5406b")
-	)
 	(label "LED"
-		(at 165.1 105.41 180)
+		(at 165.1 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7942,7 +7842,7 @@
 		(uuid "bb03975c-6fdc-4350-8a1f-47d4737e8f43")
 	)
 	(label "CAM_TRIGGER"
-		(at 110.49 107.95 0)
+		(at 111.76 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7950,16 +7850,6 @@
 			(justify left bottom)
 		)
 		(uuid "c2e8a6c2-5e65-4c79-a410-12662c13802f")
-	)
-	(label "TFT_SCK"
-		(at 165.1 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4cb34c5-6337-4fe5-9576-d77e02f25807")
 	)
 	(label "SD_DAT1"
 		(at 29.21 191.77 90)
@@ -7972,7 +7862,7 @@
 		(uuid "c88a366b-2e68-47c6-b087-6d1237d9c985")
 	)
 	(label "CAM_D2"
-		(at 113.03 82.55 0)
+		(at 113.03 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7982,7 +7872,7 @@
 		(uuid "c9181f94-760b-4b70-b315-91b8ed23c363")
 	)
 	(label "CAM_PC"
-		(at 113.03 92.71 0)
+		(at 113.03 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8012,7 +7902,7 @@
 		(uuid "d2edc835-e412-4970-8d11-764e2788403a")
 	)
 	(label "TFT_DC"
-		(at 165.1 107.95 180)
+		(at 165.1 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8040,16 +7930,6 @@
 			(justify left bottom)
 		)
 		(uuid "d3ecfdc1-cbbc-4bba-9d51-13292f3d1690")
-	)
-	(label "SD_MOSI"
-		(at 111.76 171.45 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5d3fdbc-9201-46ec-bc24-cef8d940f1b5")
 	)
 	(label "CAM_TRIGGER"
 		(at 205.74 66.04 0)
@@ -8082,12 +7962,12 @@
 		(uuid "e334299f-4dfb-4a5c-8cf9-2e38b4018784")
 	)
 	(label "CAM_D4"
-		(at 113.03 87.63 0)
+		(at 165.1 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e5eb4b4a-2b30-4ef9-be01-0c4144ee50ab")
 	)
@@ -8102,7 +7982,7 @@
 		(uuid "e6fff7f5-adc7-4271-8807-c8f70027f9b4")
 	)
 	(label "CAM_D8"
-		(at 165.1 72.39 180)
+		(at 165.1 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8142,7 +8022,7 @@
 		(uuid "f4dab770-fb42-42c2-b803-226cc46fc602")
 	)
 	(label "CAM_XC"
-		(at 113.03 80.01 0)
+		(at 113.03 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8296,72 +8176,6 @@
 			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a8a72ad-0ec1-49b1-8a39-1e7aa8e356d6")
-		(property "Reference" "TP12"
-			(at 114.3 175.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 114.3 178.3079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 116.84 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1760cae4-5626-4579-8fc1-2ccc8096267d")
-		)
-		(instances
-			(project "hope_project_digicam"
-				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -9501,72 +9315,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 111.76 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "476e3ebd-cb8d-4726-b5ed-f8f1dc510d30")
-		(property "Reference" "TP10"
-			(at 114.3 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 114.3 140.2079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 116.84 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3056758-418d-4ab7-8a4c-b7e4ed4ba04e")
-		)
-		(instances
-			(project "hope_project_digicam"
-				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 161.29 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10519,72 +10267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 269.24 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7745dc37-a26f-4422-a50c-6b8102bcba6b")
-		(property "Reference" "TP8"
-			(at 271.78 140.2079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 271.78 142.7479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 274.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 269.24 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65ddda6e-7774-4b79-846e-2b42ff90bb49")
-		)
-		(instances
-			(project "hope_project_digicam"
-				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 41.91 179.07 0)
 		(unit 1)
@@ -10943,7 +10625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HOPE DigiCam:SW2_SW3"
+		(property "Footprint" "SWITCH_CAM:D6R_CNK"
 			(at 226.06 60.96 0)
 			(effects
 				(font
@@ -11051,72 +10733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9aa92322-0b08-4ce1-b6c6-de195d7ad99c")
-		(property "Reference" "TP11"
-			(at 114.3 156.7179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 114.3 159.2579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 116.84 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25ab7580-5f80-4e6b-8738-a7854602a13d")
-		)
-		(instances
-			(project "hope_project_digicam"
-				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 29.21 173.99 0)
 		(unit 1)
@@ -11176,72 +10792,6 @@
 			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 252.73 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bc3b60d-674a-418d-b538-2470c445b9c6")
-		(property "Reference" "TP7"
-			(at 255.27 131.3179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 255.27 133.8579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 257.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 252.73 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c8d3f56-8cac-4703-bb38-852fa76b8671")
-		)
-		(instances
-			(project "hope_project_digicam"
-				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -12033,72 +11583,6 @@
 			(project "hope_project_digicam"
 				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 252.73 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b20a79d5-f8cc-481e-b320-3151362c209d")
-		(property "Reference" "TP9"
-			(at 255.27 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 255.27 151.6379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 257.81 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 252.73 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72eacc59-fb5f-4b5e-a093-303dec07f8d0")
-		)
-		(instances
-			(project "hope_project_digicam"
-				(path "/cbe9fd98-ee86-44ac-bda3-802b626f1144"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -13742,7 +13226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HOPE DigiCam:USB_C_Receptacle"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 39.37 83.82 0)
 			(effects
 				(font
@@ -13857,7 +13341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HOPE DigiCam:Shottky_Diode"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 57.15 63.5 0)
 			(effects
 				(font
