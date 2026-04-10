@@ -188,8 +188,14 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
         0.254,
-        0.381
+        0.381,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -221,6 +227,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": true
