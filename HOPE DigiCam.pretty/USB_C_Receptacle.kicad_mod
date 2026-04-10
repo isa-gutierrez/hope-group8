@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "USB4085-GF-A ")
 	(property "Reference" "REF**"
-		(at 2.975 0.675 0)
+		(at 3 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d2a3cbac-e1d0-4e65-b8c1-927d3a69e434")
